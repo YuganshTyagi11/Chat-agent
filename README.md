@@ -63,3 +63,5 @@ If you want to upgrade later with LLM text generation, common free-tier options:
 
 - This is a search-grounded assistant, not a fully autonomous reasoning agent.
 - Accuracy depends on source quality; users should verify using source links.
+
+- Live url of live project:-https://chat-agent-2ivs.onrender.com/
