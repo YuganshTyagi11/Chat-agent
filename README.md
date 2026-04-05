@@ -19,6 +19,8 @@ npm start
 
 Open: `http://localhost:3000`
 
+Live URL: `https://chat-agent-2ivs.onrender.com/`
+
 ## How it works
 
 1. Frontend sends your message to `POST /api/chat`.
