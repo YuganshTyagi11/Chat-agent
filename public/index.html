@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free Search Chat Agent</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header>
+        <h1>Free Search Chat Agent</h1>
+        <p>Ask a question and get an answer grounded in free web sources.</p>
+      </header>
+
+      <section id="chat" class="chat"></section>
+
+      <form id="chat-form" class="composer">
+        <input id="message" type="text" placeholder="Ask anything (e.g., 'What is quantum computing?')" required />
+        <button type="submit">Ask</button>
+      </form>
+    </main>
+
+    <template id="message-template">
+      <article class="message">
+        <div class="role"></div>
+        <div class="text"></div>
+      </article>
+    </template>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
